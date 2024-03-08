@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './output'
+                    sh './non_existent_command'
                     echo 'Test Stage Successful'
                 }
             }
